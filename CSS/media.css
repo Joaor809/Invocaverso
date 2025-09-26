@@ -1,0 +1,75 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .topo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .cabecalho ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .casos h1 {
+    font-size: 22px;
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+  }
+
+  .casos h2 {
+    font-size: 18px;
+  }
+
+  .lobisomem, .snedeker, .shadow, .radio, .retrato, .moedas, .ritual {
+    width: 90% !important;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .rodape {
+    padding: 20px 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .conteudo {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .frase {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+
+  .contato a {
+    display: inline-block;
+    word-break: break-word;
+  }
+
+  .aviso {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}

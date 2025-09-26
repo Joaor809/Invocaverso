@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tudo{
+    font-family: "Roboto", "Verdana";
+    background-color: #121212;
+    color: #fafafa;
+}
+.ordem-1{
+    width: 45%;
+    background-color: #fafafa;
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 8px;
+    border: 5px solid #8B0000;
+}
+.ordem-2{
+    width: 45%;
+    background-color: #121212;
+    padding: 10px;
+    border-radius: 8px;
+    border: 5px solid #8B0000;
+}
+.imagem{
+    width: 100vh;
+    height: 200vh;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.introducao{
+    text-align: center;
+    color: #fafafa;
+    border: 5px solid #8d0000;
+    border-radius: 10px;
+    margin: 5% auto;
+    justify-content: center;
+    display: block;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.cabecalho{
+    background-color: #121212;
+    color: #fafafa;
+    padding: 20px;
+    border: 5px solid #8d0000;
+    border-radius: 10px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topo h1{
+    color: #ff1a1a;
+    text-shadow: 4px 4px 6px #000;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4d4b4b;
+}
+.cabecalho ul li a{
+    border: 3px solid #8d0000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px;
+}
+.introducao{
+    background-color: #121212;
+    color: white;
+}
+.casal{
+    color: #b30000;
+    border: 5px solid #8d0000;
+    border-radius: 10px;
+    width: 50%;
+    height: 25%;
+    margin: 0% auto;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    color: #fafafa;
+    border: 5px solid #8B0000;
+    background-color: #121212;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+}
+.saber{
+    color: #fafafa;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    height: 5vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.saber a{
+    color: #cbbf9a;
+    text-decoration: none;
+}

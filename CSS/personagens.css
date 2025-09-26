@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+.tudo{
+    font-family: "Roboto", "Verdana";
+    background-color: #121212;
+    color: #fafafa;
+}
+.cabecalho{
+    background-color: #121212;
+    color: #fafafa;
+    padding: 20px;
+    border: 5px solid #8d0000;
+    border-radius: 10px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topo h1{
+    color: #ff1a1a;
+    text-shadow: 4px 4px 6px #000;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4d4b4b;
+}
+.cabecalho ul li a{
+    border: 3px solid #8d0000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px;
+}
+.rodape {
+    background-color: #121212;
+    color: #ccc;
+    padding: 40px 20px;
+    border-top: 4px solid #8b0000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .conteudo{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .conteudo-rodape {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .frase {
+    font-size: 18px;
+    font-style: italic;
+    color: #e74c3c;
+    margin-bottom: 30px;
+  }
+  .contato p, .aviso {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .contato a {
+    color: #9cf;
+    text-decoration: none;
+  }
+  .contato a:hover {
+    text-decoration: none;
+    color: #ff4444;
+  }
+  .aviso {
+    color: #777;
+    font-size: 13px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+.valak{
+    border: 4px solid #b30000;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+}
+.warrens{
+    border: 4px solid #b30000;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+}
+.annabelle{
+    border: 4px solid #b30000;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+}
+.irene{
+    border: 4px solid #b30000;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+}
+.sherman{
+    border: 4px solid #b30000;
+    width: 350px;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+}

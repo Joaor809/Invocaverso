@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+.tudo{
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.25;
+}
+.cabecalho{
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topo h1{
+  color: #ff1a1a;
+  text-shadow: 4px 4px 6px #000;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4d4b4b;
+}
+.cabecalho ul li a{
+    border: 3px solid #8d0000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px;
+}
+.texto1{
+  padding: 3px;
+  width: 500px;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 2% auto;
+}
+.texto1 h1{
+  color: #b30000;
+  text-shadow: 3px 3px 5px #000;
+}
+.titulo{
+  padding: 3px;
+  width: 500px;
+  color: #b30000;
+  text-shadow: 1px 1px 3px #000;
+  border: 3px solid #8d0000;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+.ed{
+  padding: 3px;
+  width: 500px;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 5% auto;
+}
+.ed h2{
+  color: #cccccc;
+  text-shadow: 2px 2px 4px #000;
+}
+.lorraine{
+  padding: 3px;
+  width: 500px;
+  justify-content: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin: 5% auto;
+}
+.lorraine h2{
+  color: #cccccc;
+  text-shadow: 2px 2px 4px #000;
+}
+.caso1 h2{
+  border-left: 3px solid red;
+  width: 350px;
+  border-right: 3px solid red;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+}
+.caso1 p{
+  text-align: center;
+  border: 3px solid #8d0000;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 3px;
+  width: 450px;
+}
+.caso1 a{
+  text-decoration: none;
+  color: #cbbf94;
+}
+.caso2 h2{
+  border-left: 3px solid #b30000;
+  width: 350px;
+  border-right: 3px solid #b30000;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+}
+.caso2 p{
+  text-align: center;
+  border: 3px solid #8d0000;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 3px;
+  width: 450px;
+}
+.caso3 h2{
+  border-left: 3px solid #b30000;
+  width: 350px;
+  border-right: 3px solid #b30000;
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+}
+.caso3 p{
+  text-align: center;
+  border: 3px solid #8d0000;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 3px;
+  width: 450px;
+}
+.img1{
+  height: 300px;
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+.rodape{
+  border: 5px solid darkgray;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 75px;
+  width: 200px;
+}
+.rodape h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif; 
+  justify-content: left;
+  display: flex;
+  text-align: left;
+  align-items: left;
+}
+.rodape p{
+  color: white;
+}
+.rodape p a{
+  color: darkcyan;
+  text-decoration: none;
+}
